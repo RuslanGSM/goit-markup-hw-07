@@ -1,67 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
 
-    <title>Studio</title>
-  </head>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 
-  <body>
-    <header class="page-header">
-      <div class="container main-nav">
-        <nav class="main-nav">
-          <a href="./index.html" class="logo"
-            >Web<span class="code">Studio</span></a
-          >
-          <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Studio</a></li>
-            <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-            <li><a href="#" class="link">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="main-address">
-          <ul class="site-address list">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="item">
-              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
+  <title>Studio</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container main-nav">
+      <nav class="main-nav">
+        <a href="./index.html" class="logo">Web<span class="code">Studio</span></a>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link current">Studio</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="#" class="link">Contacts</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="burger-btn js-open-menu">
+        <svg width="32" height="22">
+          <use class="burger-open" href="./css/images/mobile-menu-btn.svg#icon-menu-hamburger"></use>
+        </svg>
+      </button>
+      <address class="main-address">
+        <ul class="site-address list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
+      <div class="menu js-menu-container">
+        <button type="button" class="menu-close js-close-menu">
+          <svg class="close-icon">
+            <use href="./css/images/close-icon.svg#icon-close-icon"></use>
+          </svg>
+        </button>
+        <ul class="menu-nav list">
+          <li><a href="./index.html" class=" menu-link current">Studio</a></li>
+          <li><a href="./portfolio.html" class="menu-link">Portfolio</a></li>
+          <li><a href="#" class="menu-link">Contacts</a></li>
+        </ul>
+        <ul class="menu-address list">
+          <li class="item">
+            <a href="tel:+110001111111" class="menu-link">+11 (000) 111-11-11</a>
+          </li>
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="menu-socials-networks-list list">
+          <li>
+            <a class="menu-socials-link" href="#">
+              <svg class="social-icon">
+                <use href="./css/images/social-icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="menu-socials-link" href="#">
+              <svg class="social-icon">
+                <use href="./css/images/social-icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="menu-socials-link" href="#">
+              <svg class="social-icon">
+                <use href="./css/images/social-icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="menu-socials-link" href="#">
+              <svg class="social-icon">
+                <use href="./css/images/social-icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <!-- Hero -->
-      <section class="hero design">
-        <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button" data-modal-open>
-            Order Service
-          </button>
-        </div>
-      </section>
+  <main>
+    <!-- Hero -->
+    <section class="hero design">
+      <div class="container">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="button" data-modal-open>
+          Order Service
+        </button>
+      </div>
+    </section>
 
-      <!-- Section 1 -->
-      <section class="features-section">
+    <!-- Section 1 -->
+    <section class="features-section">
         <div class="container">
           <h2 class="hidden">features</h2>
           <ul class="features-list list">
@@ -73,7 +121,7 @@
               </div>
 
               <h3 class="features-title">Strategy</h3>
-              <p class="text">
+              <p class="features-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -86,7 +134,7 @@
               </div>
 
               <h3 class="features-title">Punctuality</h3>
-              <p class="text">
+              <p class="features-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -98,7 +146,7 @@
                 </svg>
               </div>
               <h3 class="features-title">Diligence</h3>
-              <p class="text">
+              <p class="features-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -113,7 +161,7 @@
               </div>
 
               <h3 class="features-title">Technologies</h3>
-              <p class="text">
+              <p class="features-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -121,8 +169,8 @@
           </ul>
         </div>
       </section>
-      <!-- Section 2 -->
-      <section class="works-section">
+    <!-- Section 2 -->
+    <section class="works-section">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="works-list list">
@@ -132,8 +180,8 @@
           </ul>
         </div>
       </section>
-      <!-- Section 3 -->
-      <section class="team-section">
+    <!-- Section 3 -->
+    <section class="team-section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list list">
@@ -141,7 +189,7 @@
               <img
                 src="./img/imgcard1.jpg"
                 alt="Mark Guerrero"
-                width="264"
+                width=100%
                 style="display: block"
               />
               <div class="team-card-content">
@@ -192,7 +240,7 @@
               <img
                 src="./img/imgcard2.jpg"
                 alt="Tom Ford"
-                width="264"
+                width=100%
                 style="display: block"
               />
               <div class="team-card-content">
@@ -242,7 +290,7 @@
               <img
                 src="./img/imgcard3.jpg"
                 alt="Camila Garcia"
-                width="264"
+                width=100%
                 style="display: block"
               />
               <div class="team-card-content">
@@ -292,7 +340,7 @@
               <img
                 src="./img/imgcard4.jpg"
                 alt="Daniel Wilson"
-                width="264"
+                width=100%
                 style="display: block"
               />
               <div class="team-card-content">
@@ -341,8 +389,8 @@
           </ul>
         </div>
       </section>
-      <!-- Section 4 -->
-      <section class="customers-section">
+    <!-- Section 4 -->
+    <section class="customers-section">
         <div class="container">
           <h2 class="section-title">Customers</h2>
           <ul class="customers-list list">
@@ -411,7 +459,7 @@
       </section>
     </main>
 
-    <!-- Footer -->
+
     <footer class="footer section">
       <div class="container">
         <ul class="reception-list list">
@@ -569,6 +617,8 @@
       </div>
     </div>
 
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
-  </body>
+</body>
+
 </html>
