@@ -52,47 +52,49 @@
         </button>
         <ul class="menu-nav list">
           <li><a href="./index.html" class=" menu-link current">Studio</a></li>
-          <li><a href="./portfolio.html" class="menu-link">Portfolio</a></li>
-          <li class="colorised"><a href="#" class="menu-link">Contacts</a></li>
+          <li><a href="./portfolio.html" class="menu-link ">Portfolio</a></li>
+          <li class="colorised"><a href="#" class="menu-link ">Contacts</a></li>
         </ul>
-        <ul class="menu-address list">
-          <li class="item">
-            <a href="tel:+110001111111" class="colorised menu-link">+11 (000) 111-11-11</a>
-          </li>
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-          </li>
-        </ul>
-        <ul class="menu-socials-networks-list list">
-          <li>
-            <a class="menu-socials-link" href="#">
-              <svg class="social-icon">
-                <use href="./css/images/social-icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="menu-socials-link" href="#">
-              <svg class="social-icon">
-                <use href="./css/images/social-icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="menu-socials-link" href="#">
-              <svg class="social-icon">
-                <use href="./css/images/social-icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="menu-socials-link" href="#">
-              <svg class="social-icon">
-                <use href="./css/images/social-icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        <div class="menu-communication">
+          <ul class="menu-address list">
+            <li class="item">
+              <a href="tel:+110001111111" class="menu-link">+11 (000) 111-11-11</a>
+            </li>
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            </li>
+          </ul>
+          <ul class="menu-socials-networks-list list">
+            <li>
+              <a class="menu-socials-link" href="#">
+                <svg class="social-icon">
+                  <use href="./css/images/social-icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="menu-socials-link" href="#">
+                <svg class="social-icon">
+                  <use href="./css/images/social-icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="menu-socials-link" href="#">
+                <svg class="social-icon">
+                  <use href="./css/images/social-icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="menu-socials-link" href="#">
+                <svg class="social-icon">
+                  <use href="./css/images/social-icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -173,9 +175,11 @@
         <h2 class="section-title">What are we doing</h2>
         <ul class="works-list list">
           <li><img srcset="./img/display@1x.jpg 1x, ./img/display@2x.jpg 2x" src="./img/img1.jpg" alt="display"
-              width="360" height="300"/></li>
-          <li><img srcset="./img/app@1x.jpg 1x, ./img/app@2x.jpg 2x" src="./img/img2.jpg" alt="app" width="360" height="300" /></li>
-          <li><img srcset="./img/phone@1x.jpg 1x, ./img/phone@2x.jpg 2x" src="./img/img3.jpg" alt="phone" width="360" height="300"/>
+              width="360" height="300" /></li>
+          <li><img srcset="./img/app@1x.jpg 1x, ./img/app@2x.jpg 2x" src="./img/img2.jpg" alt="app" width="360"
+              height="300" /></li>
+          <li><img srcset="./img/phone@1x.jpg 1x, ./img/phone@2x.jpg 2x" src="./img/img3.jpg" alt="phone" width="360"
+              height="300" />
           </li>
         </ul>
       </div>
@@ -185,7 +189,7 @@
       <div class="container">
         <h2 class="section-title">Our Team</h2>
         <ul class="team-list list">
-          <li>
+          <li class="card">
             <img srcset="./img/Mark Guerrero@1x.jpg 1x, ./img/Mark Guerrero@2x.jpg 2x" src="./img/imgcard1.jpg"
               alt="Mark Guerrero" width="264" height="260" style="display: block" />
             <div class="team-card-content">
@@ -224,7 +228,7 @@
             </div>
           </li>
 
-          <li>
+          <li class="card">
             <img srcset="./img/Tom Ford@1x.jpg 1x, ./img/Tom Ford@2x.jpg 2x" src="./img/imgcard2.jpg" alt="Tom Ford"
               width="264" height="260" style="display: block" />
             <div class="team-card-content">
@@ -262,9 +266,10 @@
               </ul>
             </div>
           </li>
-          <li>
+
+          <li class="card">
             <img srcset="./img/Camila Garcia@1x.jpg 1x, ./img/Camila Garcia@2x.jpg 2x" src="./img/imgcard3.jpg"
-              alt="Camila Garcia" width="264" height="260"style="display: block" />
+              alt="Camila Garcia" width="264" height="260" style="display: block" />
             <div class="team-card-content">
               <h3 class="team-title">Camila Garcia</h3>
               <p class="text">Marketing</p>
@@ -300,7 +305,8 @@
               </ul>
             </div>
           </li>
-          <li>
+
+          <li class="card">
             <img srcset="./img/Daniel Wilson@1x.jpg 1x, ./img/Daniel Wilson@2x.jpg 2x" src="./img/imgcard4.jpg"
               alt="Daniel Wilson" width="264" height="260" style="display: block" />
             <div class="team-card-content">
