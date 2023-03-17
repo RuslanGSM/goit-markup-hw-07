@@ -184,7 +184,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  height: fit-content;
+  /* height: fit-content; */
   top: 0;
   left: 0;
   padding-top: 80px;
@@ -216,7 +216,7 @@ justify-content: space-evenly;
 }
 
 .menu-nav li {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .menu-nav li:last-child {
@@ -245,7 +245,7 @@ justify-content: space-evenly;
   color: var(--primary-btn-color);
 }
 .menu-communication {
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 .menu-address .menu-link {
@@ -796,7 +796,7 @@ justify-content: space-evenly;
 
 /* Section 2 Works */
 
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 1157px) {
   .works-section {
     display: none;
   }
@@ -810,6 +810,7 @@ justify-content: space-evenly;
   .works-list {
     display: flex;
     gap: 24px;
+    flex-basis: calc((100% - 48px) / 3) ;
   }
 }
 
